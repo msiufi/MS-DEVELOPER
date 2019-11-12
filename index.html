@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/biohazard_hazardous_hazard_biological-512.png">
+    <!--Styles-->
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>MS Developer</title>
+</head>
+<body data-spy="scroll" data-target="#main-nav" data-offset="60" class="" style="">
+
+    <!-- nav bar-->
+    <nav id="main-nav" class="navbar navbar-expand-lg navbar-default menu-fixed" style="background-color: rgb(12, 12, 12);">
+        <button class="navbar-toggler navbar-toggle" type="button" data-toggle="collapse" data-target="#menu" aria-controls="menu" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fas fa-bars" aria-hidden="true"></i>
+            <a class="navbar-brand scroll" href="#">MS Developer</a>
+          </button>
+          <div class="collapse navbar-collapse" id="menu">
+            <ul class="nav navbar-nav ml-auto mt-2 mt-lg-0">
+              <li class="nav-item">
+                <a class="scroll nav-link active" href="#top">HOME</a>
+              </li>
+              <li class="nav-item">
+                <a class="scroll nav-link" href="#about">ABOUT</a>
+              </li>
+              <li class="nav-item">
+                <a class="scroll nav-link" href="#portfolio">PORTFOLIO</a>
+              </li>
+            </ul>
+          </div>
+    </nav>
+
+    <!-- Jumbotron -->
+
+    <div id="top" class="jumbotron jumbotron-fluid">
+      <div class="container text-center">
+        <h1 class="display-4 title"><strong>Maximiliano Siufi</strong></h1>
+        <p>SOFTWARE DEVELOPER.</p>
+        <a class="btn td-btn scroll " href="#content" title="Learn more">
+          <i class="fas fa-caret-down" aria-hidden="true"></i></a>
+      </div>
+    </div>
+
+    <!-- Main Content Begins -->
+  <div id="content" class="container-fluid text-center">
+    <!-- About Me Section -->
+    <section id="about" class="row justify-content-center bg-black bg-shadow">
+      <div class="row ">
+        <div class="col-xs-12">
+          <h2 class="mb-30">ABOUT</h2>
+        </div>
+      </div>
+      <div class="row mb-30 justify-content-center">
+        <div class="col-xs-12 col-md-3 col-md-offset-1 col-lg-2 col-lg-offset-2">
+          <img class="img-fluid center-block profile mb-30" src="https://kustod.io/s/5mzEnXIODuvfXIIASjIb4R.png" alt="MS Profile photo">
+        </div>
+        <div class="col-sm-8 col-sm-offset-2 col-md-7 col-md-offset-0 col-lg-6 text-left">
+          <h4>Hello there! I'm Maximiliano Siufi a software developer <br> based in Argentina - Tucuman.</h4>
+          <p> I'm a super curious guy, self-taught, motivated, enthusiastic and passionate about new technologies.
+            My goal is to consolidate as a Full Stack Developer and participate in innovative
+            projects.
+          </p>
+          <p>Currently, I am studying at the bootcamp<a href="https://rollingcodeschool.com/" target="_blank" rel="noopener noreferrer">
+              #RollingCodeSchool</a>
+            , I also has a Marketing Degree from <a href="https://www.unsta.edu.ar/" target="_blank" rel="noopener noreferrer">
+              #UNSTA.</a><br>
+            When I'm not busy, you can find me running, biking or just chilling with my girlfriend or friends,
+            if you want to know what I'm up to, just <a class="scroll" href="#follow-me">follow me.</a></p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <button class="btn td-btn outline red mt-30 " data-toggle="modal" data-target="#resumeModal">View my
+            Resume</button>
+        </div>
+      </div>
+    </section>
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="row justify-content-center bg-star-r">
+      <div class="row">
+        <div class="col-xs-12">
+          <h2 class="mb-60">PORTFOLIO</h2>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-6 col-lg-4 px-4">
+          <div class="row">
+            <div class="col-xs-12">
+              <a class="teaser" href="#" data-toggle="modal" data-target="#mdModal">
+                <div>
+                  <img class="img-fluid bg-shadow" src="img/1X1 Veterinarias -texto.png" alt="#">
+                  <div class="overlay">
+                    <div>
+                      <h3>Proyecto</h3>
+                      <h4>Subtitulo</h4>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 px-4">
+          <div class="row">
+            <div class="col-xs-12">
+              <a class="teaser" href="#" data-toggle="modal" data-target="#mmModal">
+                <div>
+                  <img class="img-fluid bg-shadow" src="img/1X1 CERVECERIAS -texto.png" alt="#">
+                  <div class="overlay">
+                    <div>
+                      <h3>Proyecto 2</h3>
+                      <h4>Sub 2</h4>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-4 px-4">
+          <div class="row">
+            <div class="col-xs-12">
+              <a class="teaser" href=#" data-toggle="modal" data-target="#contactModal">
+                <div>
+                  <img class="img-fluid bg-shadow" src="img/mp facebook (3).png" alt="#">
+                  <div class="overlay">
+                    <div>
+                      <h3>YOUR COMPANY?</h3>
+                      <h4>Let´s talk about your conpany need!</h4>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Me Section -->
+    <section class="row justify-content-center bg-black bg-shadow col-xs-12">
+      <div class=" text-center col-xs-12">
+        <h3 class="mb-10">LIKE WHAT YOU SEE?</h3>
+        <h4 class="mb-4">Let's talk, tell me what you need.</h4>
+        <a class="col-xs-12 btn td-btn outline red mb-2" data-toggle="modal" data-target="#contactModal">Email Me</a>
+        <a class="col-xs-12 btn td-btn outline red mb-2" href="tel:+543816420497">Call Me</a>
+        <a class="col-xs-12 btn td-btn outline red mb-2" href="https://wa.me/543816420497?text=Hello%20*Max*%20...">Whatsapp</a>
+      </div>
+    </section>
+    <!-- Footer -->
+    <section class="row justify-content-center bg-black bg-shadow mb-0">
+      <footer class=" text-center mb-0">
+        <div id="follow-me" class="col-xs-12 mb-30">
+          <h3>FOLLOW ME!</h3>
+          <a class="social" href="https://www.linkedin.com/in/maximiliano-siufi" target="_blank" title="LinkedIn" rel="noopener noreferrer">
+            <img src="img/LinkedIn-black.png" alt="LinkedIn Icon">
+          </a>
+          <a class="social" href="https://twitter.com/" target="_blank" title="Twitter" rel="noopener noreferrer">
+            <img src="img/Twitter-black.png" alt="Twitter Icon">
+          </a>
+          <a class="social" href="https://www.instagram.com/maxisiufi/" target="_blank" title="Instagram" rel="noopener noreferrer">
+            <img src="img/Instagram-black.png" alt="Instagram Icon">
+          </a>
+          <a class="social" href="https://github.com/msiufi/" target="_blank" title="Github" rel="noopener noreferrer">
+            <img src="img/Github-black.svg" alt="Github Icon">
+          </a>
+        </div>
+        <div class=" copyright bg-black bg-shadow text-center" style="height: 0;min-height: 0;">
+          <small style="font-size: 18px;" class="text-muted">
+            <a class="scroll" href="#top">MS Developer</a>©
+            <script type="text/javascript" async="" src="./EapRules _ Software Developer_files/analytics.js"></script><script type="text/javascript">
+              var year = new Date();
+              document.write(year.getFullYear());
+            </script>2019
+            All rights reserved - Made by <a class="scroll" href="#about">Maximiliano Siufi</a>.</small>
+        </div>
+      </footer>
+  </section></div>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+ <!------------------ THE END -------------------->
+  <!-- Resume Modal -->
+  <div class="modal content-align-center" id="resumeModal" tabindex="-1" role="dialog" aria-labelledby="resumeTitle" style="display: none;" aria-hidden="true">
+    <div class="modal-dialog modal-xl content-align-center " role="document" style="margin-top: 30px;">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h2 class="modal-title" id="resumeTitle">Resume</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        </div><!-- /.modal-header -->
+        <div class="modal-body content-align-center">
+          <div class=" content-align-center">
+            <div class="row">
+              <div class="col-lg-10 col-lg-offset-1">
+                <h3>Experience</h3>
+              </div>
+            </div>
+            <div class="row mb-15">
+              <div class="col-md-3 col-lg-2 col-lg-offset-1">
+                <p class="year">Present</p>
+              </div>
+              <div class="col-md-9 col-lg-8">
+                <h4>Freelancer</h4>
+                <p class="mb-0"><strong>proyecto</strong></p>
+                <p>descripcion</p>
+                <p class="mb-0"><strong>proyecto2</strong></p>
+                <p>descripcion 2</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-3 col-lg-2 col-lg-offset-1">
+                <p class="year">2018 - Present</p>
+              </div>
+              <div class="col-md-9 col-lg-8">
+                <h4>proyecto 3</h4>
+                <p><strong>nombre proy3</strong></p>
+                <p>descripcion proy 3</p>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6 col-lg-5 col-lg-offset-1">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <h3>Education</h3>
+                  </div>
+                </div>
+                <div class="row mb-15">
+                  <div class="col-sm-3 col-md-4">
+                    <p class="year">2019 - Present</p>
+                  </div>
+                  <div class="col-sm-9 col-md-8">
+                    <p class="mb-0"><strong>Full-Stack Developer</strong></p>
+                    <p>Rolling Code School</p>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col-sm-3 col-md-4">
+                    <p class="year">Present</p>
+                  </div>
+                  <div class="col-sm-9 col-md-8">
+                    <p class="mb-0"><strong>Full-Stack Developer</strong></p>
+                    <p>Rolling Code School</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-6 col-lg-5">
+                <div class="row">
+                  <div class="col-xs-12">
+                    <h3>Skills</h3>
+                  </div>
+                </div>
+                <div class="row">
+                  <ul>
+                    <li><strong>Dev:</strong> HTML5, CSS3, Bootstrap, JavaScript.</li>
+                    <li><strong>Vcs:</strong> Git - GitHub, Bitbucket.</li>
+                    <li><strong>Crm:</strong> Trello.</li>
+                    <li><strong>Personal:</strong> Positive, adaptable, attentive, resourceful.</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row text-center content-align-center col-md-9 ml-auto">
+            <a class="btn td-btn outline red mb-30 " href="https://kustod.io/s/4uyD5f0Tkb28OA36BXlIFS.pdf" target="_blank" rel="noopener noreferrer" download=""><i class="fas fa-angle-double-down" aria-hidden="true"></i> Download Full Resume PDF</a>
+          </div>
+          <div class="modal-footer ">
+            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close Resume</button>
+          </div><!-- /.modal-footer -->
+        </div><!-- /.modal-body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  <!-- Planta Recicladora Project Modal -->
+  <div class="modal fade" id="mdModal" tabindex="-1" role="dialog" aria-labelledby="tributeTitle">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+
+          <h2 class="modal-title text-center" id="tributeTitle">proyecto</h2>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 bg-star-r">
+              <img class="img-fluid center-block hero" src="./EapRules _ Software Developer_files/multi-device-recicladora-low.webp" alt="Mercado Tucuman">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h4>Proyecto</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+              <p class="mb-30"><a href="https://eaprules.com/reciclamos" target="_blank" rel="noopener noreferrer">nombre proyecto</a>
+                parrafo <br>
+                parrafo<br></p>
+              <p class="mb-30">
+                parrafo</p>
+            </div>
+            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
+              <p><strong>Technologies Used:</strong></p>
+              <p class="mb-30">
+                <span class="label tag">Bootstrap</span>
+                <span class="label tag">HTML5</span>
+                <span class="label tag">CSS3</span>
+                <span class="label tag">Responsive Design</span>
+                <span class="label tag">JavaScript</span>
+              </p>
+              <a class="btn td-btn outline red mb-30 small" href="https://eaprules.com/reciclamos" target="_blank" rel="noopener noreferrer" title="Link to Reciclamos"><i class="fas fa-link" aria-hidden="true"></i> Visit Live Site</a>
+              <a class="btn td-btn outline red mb-30 small" href="https://github.com/EapRules" target="_blank" rel="noopener noreferrer" title="Link to Reciclamos on Github"><i class="far fa-heart" aria-hidden="true"></i>
+                View on Github</a>
+            </div>
+          </div><!-- /.row -->
+          <div class="modal-footer center">
+            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close Project</button>
+          </div><!-- /.modal-footer -->
+        </div><!-- /.modal-body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  <!-- Mercado Tucuman Project Modal -->
+  <div class="modal fade" id="mmModal" tabindex="-1" role="dialog" aria-labelledby="tmsTitle">
+    <div class="modal-dialog modal-xl" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h3 class="modal-title text-center" id="tmsTitle">MERCADO TUCUMAN</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+          <div class="row">
+            <div class="col-xs-12 bg-star-r">
+              <img class="img-fluid center-block hero" src="./EapRules _ Software Developer_files/multi-device-mercado-low.webp" alt="Mercado Tucuman">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-12 text-center">
+              <h4>E-COMMERCE</h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+              <p class="mb-30"><a href="http://mercado.eaprules.com/" target="_blank" rel="noopener noreferrer">Mercado Tucuman</a> is a project
+                that was developed to self-assess my knowledge, both in
+                front and
+                backend.</p>
+              <p class="mb-30">The purpose of this project was to create a fully functional ecommerce web,
+                which can do (C.R.U.D / A.B.M) on products and users.</p>
+            </div>
+            <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
+              <p><strong>Technologies Used:</strong></p>
+              <p class="mb-30">
+                <span class="label tag">Bootstrap</span>
+                <span class="label tag">HTML5</span>
+                <span class="label tag">CSS3</span>
+                <span class="label tag">Responsive Design</span>
+                <span class="label tag">jQuery</span>
+                <span class="label tag">PHP</span>
+                <span class="label tag">Mysql</span>
+              </p>
+              <a class="btn td-btn outline red mb-30 small" href="http://mercado.eaprules.com/" target="_blank" rel="noopener noreferrer" title="Link to Mercado Tucuman"><i class="fas fa-link" aria-hidden="true"></i> Visit Live Site</a>
+              <a class="btn td-btn outline red mb-30 small" href="https://github.com/EapRules" target="_blank" rel="noopener noreferrer" title="Link to Reciclamos on Github"><i class="far fa-heart" aria-hidden="true"></i>
+                View on Github</a>
+            </div>
+          </div><!-- /.row -->
+          <div class="modal-footer center">
+            <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close Project</button>
+          </div><!-- /.modal-footer -->
+        </div><!-- /.modal-body -->
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  <!-- future proyect ->
+    <div class="modal fade" id="csModal" tabindex="-1" role="dialog" aria-labelledby="rbTitle">
+      <div class="modal-dialog wide" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span
+                aria-hidden="true">&times;</span></button>
+            <h3 class="modal-title text-center" id="rbTitle">Project Details</h3>
+          </div>
+          <div class="modal-body">
+            <div class="row">
+              <div class="col-xs-12 bg-star-g">
+                <img class="img-responsive center-block hero"
+                  src=""
+                  alt="">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-12 text-center">
+                <h2></h2>
+                <h4>Responsive Web Design</h4>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0">
+                <p></p>
+                <p class="mb-30"><a
+                    href="" target="_blank"
+                    title=""></a>,</p>
+              </div>
+              <div class="col-sm-10 col-sm-offset-1 col-lg-6 col-lg-offset-0 md-center">
+                <p><strong>Technologies Used:</strong></p>
+                <p class="mb-30">
+                  <span class="label tag">Responsive Design</span>
+                  <span class="label tag">HTML5</span>
+                  <span class="label tag">CSS3</span>
+                </p>
+                <a class="btn td-btn outline green mb-30" href="" target="_blank"
+                  title="Link to "><i class="fas fa-link"></i> Visit Live Site</a>
+              </div>
+            </div><!-- /.row ->
+            <div class="modal-footer center">
+              <button type="button" class="btn td-btn outline small" data-dismiss="modal">Close Project</button>
+            </div><!-- /.modal-footer ->
+          </div><!-- /.modal-body ->
+        </div><!-- /.modal-content ->
+      </div><!-- /.modal-dialog ->
+    </div><!-- /.modal -->
+  <!-- Contact Modal -->
+  <div class="modal fade" id="contactModal" tabindex="-1" role="dialog" aria-labelledby="contactTitle">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content bg-black">
+        <div class="modal-header">
+          <h3 class="modal-title" id="contactTitle">CONTACT ME</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">×</span></button>
+        </div><!-- /.modal-header -->
+        <div class="modal-body">
+          <form id="contactForm" name="sentMessage"  data-bss-recipient="b6c46821b6a2a9aede21c6269428a111">
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2"><input class="form-control" type="text" required placeholder="Name" id="name"><small class="form-text text-danger help-block"></small></div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-0 pb-2"><input class="form-control" type="email" required placeholder="Email Address" id="email"><small class="form-text text-danger help-block"></small></div>
+            </div>
+            <div class="control-group">
+              <div class="form-group floating-label-form-group controls mb-5 pb-2"><textarea class="form-control" rows="5" required placeholder="Message" id="message"></textarea><small class="form-text text-danger help-block"></small></div>
+            </div>
+            <div id="success"></div>
+            <div class="modal-footer">
+              <button type="button" class="btn td-btn small outline succses" data-dismiss="modal">Cancel</button>
+              <button type="submit" class="btn td-btn small outline succses">Send</button>
+              <small style="font-size: 12px;" class="text-muted">Click "Send Message" and wait a few seconds</small>
+          
+        </div></form><!-- /.modal-footer -->
+      </div><!-- /.modal-body -->
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+
+</body>
+</html>
